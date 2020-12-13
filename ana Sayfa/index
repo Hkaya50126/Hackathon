@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: #131212;
+
+		}
+		
+		.dis{
+			background-color:  #06090f;
+			
+			
+			height: 100%;
+			
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 10%;
+			right: 10%;
+			overflow: hidden;
+						
+
+
+		}
+		.cizgi{
+			border-right: double #c0c0c0 1px;
+			border-left: double #c0c0c0 1px;
+			margin-right: 8%;
+			margin-left: 8%;
+
+		}
+		.sagkisim{
+			float: right;			
+			width: 8%;
+
+		}
+		.ic{
+			
+			color: #ffffff;
+			margin-right: 5%;
+			margin-top: 0;
+			margin-left: 3%;
+		}
+		.ic li{
+			list-style-type: none;
+			float: left;
+			margin-right: 3%;
+			margin-left: 2%;
+			margin-top: 5%;
+		}
+		.cizgi img
+		{
+			margin-top: 1%;
+			margin-bottom: 1%;
+			margin-left: 0;
+			float: right;
+			padding: 0 0 1% 0;
+			width: 40%;
+			height: 40%;
+			
+			
+		}
+		.sagkisim img{
+			width: 50%;
+			height: 50%;
+			margin-left: auto;
+
+		}
+		big{
+			float: left;
+			font-size: 25px;
+			margin-right: 5%;
+			margin-left: 3%;
+			margin-top: 5%;
+			display: block;
+			
+		}
+		.ic b{
+			
+			font-size: 40px;
+			margin-right: 5%;
+			margin-left: 3%;
+			margin-top: 2%;
+		}
+		.icb
+		{
+			font-size: 18px;
+		}
+		a{
+			
+			
+			color: #000000;
+			text-decoration:none;
+			text-align: center;	
+			line-height:20px;
+			width: 300px;
+
+			
+		}
+		.buton{
+			width: 120px;
+			text-align: center;
+			padding: 15px;
+			display: block;
+			border-bottom-right-radius:40px;
+			border-bottom-left-radius:40px;
+			border-top-left-radius:40px;
+			border-top-right-radius:40px;
+			font-size:18px;
+			margin:20px;
+			margin-left: 30px;
+			background-color: #e3e3e3;
+			border:double #000000 1px;
+			cursor: pointer;
+		}
+		.haklar{
+			float: bottom;
+			list-style-type: none;
+			font-size: 18px;
+			margin-top: 9%;	
+			text-align: center;
+			padding-bottom: 10%;
+
+		}
+		footer{
+			float bottom;
+			list-style-type: none;
+			width: 100%;
+			margin-right: 25%;
+			text-align: center;	
+			margin-top: 12%;
+			
+
+			
+		}
+		.alt{
+
+			padding-bottom: 50px;
+			
+		
+		}
+		.alt li{
+			font-family: "Roboto", Arial, Helvetica, sans-serif;
+		}
+		
+		
+		
+
+	</style>
+</head>
+<body>
+<div class="dis">
+	<div class="sagkisim" align="center">
+		<a href=""><img src="dil.png"></a>
+		<a href="" style="writing-mode: vertical-rl; color:#9a9a9a; transform: rotate(180deg); padding-right: 38%;padding-bottom: 160%; ">Linkedin</a>
+		<a href="" style="writing-mode: vertical-rl; color:#9a9a9a; transform: rotate(180deg); padding-right: 38%;padding-bottom: 20%;">Instagram</a>
+		<a href="" style="writing-mode: vertical-rl; color:#9a9a9a; transform: rotate(180deg); padding-right: 38%;padding-bottom: 20%;">Github</a>
+		<br></br>
+		<br></br>
+		<br></br>
+	</div>
+	<div class="cizgi" >
+		<img src="Cizim.png" align="right"  height="450">		
+	<div class="ic">
+		<a href=""><li style="color: #ff9d54; ">X Team</li></a>
+		<a href=""><li style="color: #9a9a9a;">Ekibimiz</li></a>
+		
+		
+		<br></br><br></br><br></br><br></br><br>
+		<big style="color: #9a9a9a;">Hakkımızda</big>
+		<br><br>
+		<big style="color: #ffffff; margin-left: -18%; font-size: 45px;">Team X</big>
+		<br><br><br><br><br><br>
+		<b class="icb" style="color: #666666; font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		<br>
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</b>
+		<br><br><br>
+		<div class="buton" ><a href="ekibimiz.html">Ekibimiz</a></div>
+		
+		
+		
+	</div>
+	<footer><div align="center" ><div class="alt"><li style="color: #faa61a; text-align: center;">©2020 x-teamxx@gmail.com</li></div></div></footer>
+	</div>
+</div>
+</body>
+</html>
